@@ -4,7 +4,15 @@
   border-radius: 0; 
 }
 
-.white li a, .white a {
+li a.link:hover {
+  background: darkcyan !important;
+}
+
+li.dropdown.open a.link {
+  background: darkcyan !important;
+}
+
+.white {
   color: white !important;
 }
 
