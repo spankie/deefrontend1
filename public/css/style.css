@@ -48,7 +48,6 @@ li.dropdown.open a.link {
     margin: 0px;
 }
 
-
 form .control {
   width: 80%;
   margin-left: auto;
@@ -63,7 +62,7 @@ form .control .label {
 }
 
 form .control input {
-  border-radius: none !important;
+  border-radius: 0 !important;
   border-bottom: 1px solid darkcyan;
   border-top: none;
   border-left: none;

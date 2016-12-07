@@ -17,7 +17,7 @@ router.post('/', function(req, res, next) {
   if(req.body.email == "spankie@gmail.com") {
     var sess = req.session; 
     sess.user = req.body.email;
-    res.redirect('/users');
+    res.redirect('/');
   } else {
     res.render('index', { title: 'Hall-Way', user: {user: 'Guest'}, err: 'Wrong Username' });
   }
