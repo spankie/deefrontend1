@@ -1,3 +1,9 @@
+body{
+ background-color: #2B2B2B;
+ /*background-color: aquamarine;*/
+ color: white;  
+}
+
 .landing nav {
   background: rgba(0, 0, 0, 0.0);
   border: none;
@@ -21,9 +27,13 @@ li.dropdown.open a.link {
 }
 
 .box {
-  background: white;
-  height: 435px;
-  padding: 0;
+    box-sizing: border-box;
+    background: white;
+    height: 435px;
+    padding: 0 0 15px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;  
 }
 
 .hello {
@@ -85,12 +95,8 @@ a {
   color: #00B7FF;
 }
 
-
-
-body{
- background-color: #2B2B2B;
- /*background-color: aquamarine;*/
- color: white;  
+footer {
+    padding: 10px 5px;
 }
 /*
 *{
